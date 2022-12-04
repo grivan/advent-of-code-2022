@@ -10,6 +10,7 @@ folder=day$1
 if [ ! -d "$folder" ]; then
 	mkdir $folder
 	touch $folder/day$1.in
+	touch $folder/day$1_s.in
 	touch $folder/day$1.py
 else
 	echo "$folder already exists"
